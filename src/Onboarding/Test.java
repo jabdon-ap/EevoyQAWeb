@@ -19,6 +19,7 @@ public class Test {
 		loginEmail.sendKeys("jabdon+101@apppartner.com");
 		loginPassword.sendKeys("SuperBoise1");
 		loginButton.click();
+		driver.close();
 	}
 
 }
