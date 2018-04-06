@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Test {
 	
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver",  "/Users/AppPartner/Documents/Drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver",  "lib/chromedriver");
 		String url = "http://eevoy-web-dev.s3-website-us-east-1.amazonaws.com/login";
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
